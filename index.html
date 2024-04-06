@@ -24,7 +24,7 @@
             <ul>
                 <li><a href="#about-us">Home</a></li>
                 <li><a href="#servicios">Services</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -54,15 +54,35 @@
 
             <article>
                 <div class="catalogoServicios">
-                    <h2>Servicio de Diseño y Construcción Integral:</h2>
+                    <h2>Asesoría "hecho a mano":</h2>
                     <img src="./public/images/service2.webp" alt="">
-                    <p>¡Nuestro servicio estrella! Trabajamos mano a mano contigo para diseñar el jardín de tus sueños. Desde la conceptualización hasta la construcción, nos encargamos de cada detalle para asegurarnos de que el resultado final supere tus expectativas. Además, te entregamos un completo manual de cuidados para que puedas mantener tu jardín en óptimas condiciones y disfrutarlo por mucho tiempo.</p>
+                    <p>¿Tienes una idea en mente pero necesitas ayuda para plasmarla en tu jardín? Con nuestro servicio "Hecho a Mano", creamos un diseño personalizado basado en tus necesidades y gustos. Te entregamos un documento detallado con todas las especificaciones, desde las plantas recomendadas hasta los cuidados necesarios, para que puedas llevar a cabo tu proyecto con confianza y éxito.</p>
                 </div>
             </article>
         </section>
+
+        <form id="contact" action="./src/pages/welldone.html">
+            <fieldset>
+                <legend><b>Solicitanós la información.</b></legend>
+                <input type="text" name="name" id="name" value="Escribenos tu nombre: ">
+                <input type="email" name="email" id="email" value="Escribe tu correo electrónico: ">
+                <select name="name" id="name">
+                    <option value="service-integral">Servicio integral</option>
+                    <option value="service-autobuild">Servicio "hecho a mano"</option>
+                </select>
+                <input id="button" type="button" value="Solicitar información">
+            </fieldset>
+        </form>
     </main>
     <footer>
-
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/eST9seSW2xs?si=zgz4-TB5N7wn0Ft5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <ul>
+            <li><a href="mailto:diego97jaramillo@gmail.com"><i class="bi bi-envelope"></i></a></li>
+            <li><a href="tel:+573182097171"><i class="bi bi-telephone-fill"></i></a></li>
+            <li><a href="https://wa.me/+573182097171?text=Hola%20quiero%20saber%20sobre%20los%20servicios"><i class="bi bi-whatsapp"></i></a></li>
+        </ul>
+        <p>Todos los derechos reservados, creado por Diego's Enterprise.</p>
+        <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15866.466740302214!2d-75.5808054!3d6.1820292!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e46825e8765ee77%3A0xaae8e48874931f61!2sSao%20Paulo%20Plaza!5e0!3m2!1ses!2sco!4v1712362560801!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </footer>
 </body>
 </html>
