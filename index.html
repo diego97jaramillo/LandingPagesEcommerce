@@ -1,6 +1,12 @@
+<!--
+Creador: Diego Jaramillo
+Organización: Riwi
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- se ponen los metadatos para que los navegadores identifiquen eficientemente todo lo relacionado con este html -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./public/images/eriGarden.webp" type="image/x-icon">
@@ -17,9 +23,11 @@
     <title>AgriNow</title>
 </head>
 <body>
+    <!-- se crea el encabezado con su logo, e hipervinculos para navegar la pagina.-->
     <header>
         <img src="./public/images/eriGarden.webp" alt="AgriNow Logo">
         <h1>EriGarden Consultors</h1>
+        <!-- se crea el nav para mejorar la semantica y sepa que es para navegar -->
         <nav>
             <ul>
                 <li><a href="#about-us">Home</a></li>
@@ -28,6 +36,8 @@
             </ul>
         </nav>
     </header>
+
+    <!-- se crea la sección principal con su contenido más importante, la experiencia y los servicios a ofrecer. -->
     <main>
         <section class="contenedores" id="about-us">
             <article>
@@ -61,6 +71,7 @@
             </article>
         </section>
 
+        <!-- Este es el formulario por si el cliente desea que le sea enviada toda la información al correo -->
         <form id="contact" action="./src/pages/welldone.html">
             <fieldset>
                 <legend><b>Solicitanós la información.</b></legend>
@@ -74,6 +85,8 @@
             </fieldset>
         </form>
     </main>
+
+    <!-- El pie de pagina contiene todos los elemento incrustados, los derechos de autor y los hipervinculos de contacto. -->
     <footer>
         <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/eST9seSW2xs?si=zgz4-TB5N7wn0Ft5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <ul>
